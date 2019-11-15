@@ -1,0 +1,12 @@
+program Main;
+   var x, y: real;
+
+   procedure Alpha(a,b : integer; c,d : integer);
+      var y : integer;
+   begin
+      x := a + x + y + b + c + d;
+   end;
+
+begin { Main }
+
+end.  { Main }

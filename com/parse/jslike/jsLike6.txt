@@ -1,0 +1,17 @@
+var a = "outer";
+{
+  var a = "inner";
+  print a;
+}
+
+//变量a只能声明一次
+var a = "global";
+{
+  fun showA() {
+    print a;
+  }
+
+  showA();
+  var a = "block";
+  showA();
+}

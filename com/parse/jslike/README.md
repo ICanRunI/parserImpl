@@ -1,0 +1,1 @@
+this project implement base javascript interpreter. to running testCode you need to import junit framework. 
